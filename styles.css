@@ -1,0 +1,21 @@
+/*
+ * Bootcamp: PODCAST
+ * Robin Littlefield 
+ *
+ * frontendmentor.io project
+ * https://www.frontendmentor.io/challenges/pod-request-access-landing-page-eyTmdkLSG
+ *
+ * v1.0 2/22/21
+ */
+
+body {
+
+/* Design System */
+    position: relative;
+    width: 1440px;
+    height: 2067px;
+
+    background: #121725;
+}
+
+
