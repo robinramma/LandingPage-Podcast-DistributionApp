@@ -8,6 +8,15 @@
  * v1.0 2/22/21
  */
 
+ :root {
+     --green: #54e6af;
+     --dk-gray: #2c344b;
+     --dk-blue: #121725;
+     --gray: #5a668a;
+     --light-gray: #c2cbe5;
+     --backgroundColor: var(--dk-blue);
+     --title: var(--green);
+ }
 * {
     margin: 0;
     padding: 0;
@@ -15,11 +24,11 @@
     font-family: 'Chivo', sans-serif;
 }
 body {
-    background: #121725;
+    background: var(--backgroundColor);
   }
 #intro {
     z-index: 10;
-    background-color: #121725; /* 121725 */
+    background-color: var(--backgroundColor); /* 121725 */
     position: absolute;
     width: 723px;
     height: 509px;
@@ -27,7 +36,7 @@ body {
     top: 261px;
 }
 .title-green {
-    color: #54E6AF;
+    color: var(--title);
 }
 #intro h1  {
     color: #FFFFFF;
